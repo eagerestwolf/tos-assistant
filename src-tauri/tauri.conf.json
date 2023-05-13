@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "cc.eagerestwolf.tos-assistant",
+    "productName": "Town of Salem Assistant",
     "version": "../package.json"
   },
   "tauri": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "cc.eagerestwolf.tos-assistant",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -54,7 +54,9 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcyQzAyNzQxMkIxNzYwQ0QKUldUTllCY3JRU2ZBY21kcUJ4bHlWVjhzRzdQaUZOYmx5M0JzWHJNT0pORmtIUytuYkpRNVIwdkoK"
     },
     "windows": [
       {
