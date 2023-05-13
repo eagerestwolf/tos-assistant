@@ -95,17 +95,17 @@ git clone https://github.com/eagerestwolf/tos-assistant.git
 ```
 
 Once you have the source code downloaded, `cd` into the source directory and install the required
-development dependencies with `yarn`.
+development dependencies with `pnpm`.
 
 ```sh
-cd tos-assistant && yarn
+cd tos-assistant && pnpm
 ```
 
 Next, I highly recommend you run the application in development mode at least once because the Rust
 and C/C++ code required takes quite a bit of time to complete.
 
 ```sh
-yarn tauri dev
+pnpm tauri dev
 ```
 
 When making changes to the code, please follow the relevant coding style guidelines. ESLint is
@@ -113,7 +113,7 @@ configured to check the code, along with Prettier to ensure the code is nice and
 your code is okay, run the following command:
 
 ```sh
-yarn lint
+pnpm lint
 ```
 
 If you use Visual Studio Code, you will be prompted a list of suggested extensions to install to
