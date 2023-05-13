@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "bungcip.better-toml",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "rust-lang.rust-analyzer",
+    "tauri-apps.tauri-vscode",
+    "vadimcn.vscode-lldb"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "translation": {
+    "region": "United Kingdom",
+    "bingo": {
+      "tasks": {
+        "mistakes": {
+          "12": {
+            "description": "Someone says they are a [insert colour] vigilante, such as mafioso claiming red vigilante, serial killer claiming blue vigilante, or juggernaut claiming salmon vigilante.",
+            "display-text": "[colour] vigilante"
+          }
+        }
+      }
+    }
+  }
+}

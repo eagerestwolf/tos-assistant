@@ -1,0 +1,303 @@
+{
+  "translation": {
+    "language": "",
+    "region": "",
+    "bingo": {
+      "actions": {
+        "new": "",
+        "reset": ""
+      },
+      "categories": {
+        "annoying-lobbies": "",
+        "mistakes": "",
+        "obvious-plays": "",
+        "wins": ""
+      },
+      "name": "",
+      "tasks": {
+        "annoying-lobbies": {
+          "1": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "2": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "3": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "4": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "5": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "6": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "7": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "8": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "9": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "10": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "11": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "12": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          }
+        },
+        "mistakes": {
+          "1": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "2": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "3": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "4": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "5": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "6": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "7": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "8": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "9": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "10": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "11": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "12": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "13": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          }
+        },
+        "obvious-plays": {
+          "1": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "2": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "3": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "4": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "5": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "6": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "7": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "8": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "9": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "10": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "11": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "12": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          }
+        },
+        "wins": {
+          "1": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "2": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "3": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "4": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "5": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "6": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "7": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "8": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "9": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "10": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "11": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          },
+          "12": {
+            "comment": "",
+            "description": "",
+            "display-text": ""
+          }
+        }
+      }
+    },
+    "dialogs": {
+      "confirmation": {
+        "confirm": "",
+        "message": "",
+        "title": ""
+      }
+    },
+    "notepad": {
+      "actions": {
+        "reset": ""
+      },
+      "name": "",
+      "tables": {
+        "graveyard": {
+          "title": ""
+        },
+        "headers": {
+          "affected": "",
+          "claim": "",
+          "confirmed": "",
+          "fake": ""
+        }
+      }
+    },
+    "players": {
+      "6": {
+        "claim": ""
+      }
+    }
+  }
+}

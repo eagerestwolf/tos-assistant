@@ -1,0 +1,311 @@
+{
+  "translation": {
+    "language": "English",
+    "region": "United States",
+    "bingo": {
+      "actions": {
+        "new": "New card",
+        "reset": "Reset card"
+      },
+      "categories": {
+        "annoying-lobbies": "Annoying Lobbies",
+        "mistakes": "Mistakes",
+        "obvious-plays": "Obvious Plays",
+        "wins": "Wins"
+      },
+      "free-space": "Free Space",
+      "name": "Bingo",
+      "tasks": {
+        "annoying-lobbies": {
+          "1": {
+            "comment": "Don't you hate that one player that wants a theme that nobody else wants?",
+            "description": "Somebody in the lobby requests a theme, and usually it's one that nobody else wants (i.e. cat theme).",
+            "display-text": "Theme"
+          },
+          "2": {
+            "comment": "TIP: Players who cooperate with their team win more games.",
+            "description": "A player (most likely a townie) calls the town stupid (probably because they're about to be lynched).",
+            "display-text": "Someone calls town stupid"
+          },
+          "3": {
+            "comment": "TIP: Randomly lynching a player favors the evil roles.",
+            "description": "Someone gets lynched with no evidence, despite having a claim.",
+            "display-text": "Someone gets lynched randomly"
+          },
+          "4": {
+            "comment": "There's a reason new players stick to classic.",
+            "description": "Someone, probably because they claimed being new, gets told by someone, probably a more veteran player, to go play classic.",
+            "display-text": "Someone gets told to go back to classic"
+          },
+          "5": {
+            "comment": "Actually, I'm over here making a 30,000 iQ jest play, thanks.",
+            "description": "Someone gets accused of throwing. For example, if they claim red vigilante as solo mafioso.",
+            "display-text": "Someone gets accused of gamethrowing"
+          },
+          "6": {
+            "comment": "Listen, I don't like framer either, but I still play it out.",
+            "description": "3 or more players disconnect (doesn't have to be all at once). Usually, this will happen on day 1 if it's a crap role, or on the stand if they rage quit.",
+            "display-text": "3 or more suicides in a single game"
+          },
+          "7": {
+            "comment": "Mafia was roleblocked or hit an immune.",
+            "description": "A night passes and nobody dies. Usually there will be like 3 people roleblocked, 1 jailed, and 1 pirated; or mafia hit an immune.",
+            "display-text": "Nobody dies at night"
+          },
+          "8": {
+            "comment": "Stop ordering pizza as soon as you sit down to play Town of Salem.",
+            "description": "One of the mafia members is AFK. Usually, when another mafia member gets lynched, they'll make sure town knows.",
+            "display-text": "Mafia member is AFK"
+          },
+          "9": {
+            "comment": "Thanks for blowing my jest cover...jeez.",
+            "description": "Somebody in the town get called an idiot by someone else. This will almost certainly happen if the jailor doesn't jail who town wants jailed.",
+            "display-text": "Someone calls someone else an idiot"
+          },
+          "10": {
+            "comment": "Town is stupid.",
+            "description": "A confirmed executioner lives for a surprisingly long time. They probably pushed a townie in a 1 for 1, and town forgot about them; or evils have majority.",
+            "display-text": "Confirmed exe lives for a long time"
+          },
+          "11": {
+            "comment": "Why? Doctor is such an easy role.",
+            "description": "Somebody with a town role disconnects on day 1, and they're almost certainly something useful like spy, investigator, or jailor.",
+            "display-text": "Townie commits suicide day 1"
+          },
+          "12": {
+            "comment": "Well, I guess that player is dead now.",
+            "description": "The investigator finds someone that has the correct results to be mayor or jailor. A smart investigator would whisper the jailor and post fake results.",
+            "display-text": "Investigator outs jailor and/or mayor"
+          }
+        },
+        "mistakes": {
+          "1": {
+            "comment": "TIP: Wills are a powerful tool, use them to your advantage.",
+            "description": "A townie that dies either has a blank will, or they didn't update their will to say where they went. Inevitably, they visited the werewolf.",
+            "display-text": "Townie has a useless will"
+          },
+          "2": {
+            "comment": "Careful with that thing, you'll shoot your eye out...oh...nevermind.",
+            "description": "A vigilante shoot a town member at night. You'll find out tomorrow why this is bad. This usually happens when vigilantes shoot without asking for role.",
+            "display-text": "Vigilante shoots a townie"
+          },
+          "3": {
+            "comment": "Well, I guess they won't be making that mistake again this game.",
+            "description": "The jailor executes a town member at night. Probably because the jailor didn't ask for a claim, or didn't like their claim.",
+            "display-text": "Jailor executes a townie"
+          },
+          "4": {
+            "comment": "You know that's a reportable offense, right?",
+            "description": "Someone throws the game. There are many ways this can happen: a town member could ignore town investigatives, an evil could give up their team while getting lynched, among others. A solo evil claiming doesn't count as a throw.",
+            "display-text": "Someone throws"
+          },
+          "5": {
+            "comment": "Well, hotshot, now they know for sure there is an arsonist. Good job.",
+            "description": "An arsonist ignites their doused targets on night 2. This is bad for the arsonist because it starts the arsonist hunt.",
+            "display-text": "Arsonist ignites on night 2"
+          },
+          "6": {
+            "comment": "Why? You know what has to happen now.",
+            "description": "Vigilante openly claims in a coven leader game. This is a problem because the coven leader can use the vigilante against the town. Claiming TK doesn't count.",
+            "display-text": "Vigilante claims in a coven leader game"
+          },
+          "7": {
+            "comment": "You had 1 job...just 1 job...and you failed.",
+            "description": "A veteran dies on night 1, whether or not they baited.",
+            "display-text": "Veteran doesn't alert night 1 and dies"
+          },
+          "8": {
+            "comment": "Seriously? You fell for that? lmao",
+            "description": "A member of the mafia falls for a vet bait, and dies to the veteran. The one they usually fall for is \"vet bait\".",
+            "display-text": "Mafia falls for vet bait"
+          },
+          "9": {
+            "comment": "I don't think that's what they meant by eye for an eye.",
+            "description": "A mafia member dies to coven and a coven member dies to mafia in the same night.",
+            "display-text": "Mafia and Coven trade kills"
+          },
+          "10": {
+            "comment": "Why me indeed.",
+            "description": "The first thing someone says when they get voted up is \"why me?\".",
+            "display-text": "Why me?"
+          },
+          "11": {
+            "comment": "You did get the Werewolf lynched, but doesn't this count as a throw?",
+            "description": "Someone evil reveals their role, just to get a target lynched. Like a blackmailer revealing because the werewolf is whispering the survivor or their guardian angel.",
+            "display-text": "Evil reveals to get someone lynched"
+          },
+          "12": {
+            "comment": "You're still not a vigilante. Don't kid yourself.",
+            "description": "Someone says they are a [insert color] vigilante, such as mafioso claiming red vigilante, serial killer claiming blue vigilante, or juggernaut claiming salmon vigilante.",
+            "display-text": "[color] vigilante"
+          },
+          "13": {
+            "comment": "You can LISTEN to other's conversations. Replies not advised.",
+            "description": "A blackmailer responds to a whisper that was not sent to them. For example, a guardian angel asks for their targets role and the blackmailer replies.",
+            "display-text": "Blackmailer answers wrong whisper"
+          }
+        },
+        "obvious-plays": {
+          "1": {
+            "comment": "I get that it's in your invest results, but be original man.",
+            "description": "When voted up, the mafioso claims vigilante. They do this because the investigator results for mafioso contain vigilante.",
+            "display-text": "Mafioso claims vigilante"
+          },
+          "2": {
+            "comment": "This is jest, guilty anyway.",
+            "description": "The jester makes a super obvious play, like claiming an evil role. Town will sometimes pity guilty the jest.",
+            "display-text": "Jester makes an obvious play"
+          },
+          "3": {
+            "comment": "That's one dead mayor, or they're making a power play. Probably the former.",
+            "description": "The mayor reveals. This could be good or bad. Sometimes the mayor is the dumbest member of the town.",
+            "display-text": "Mayor reveals"
+          },
+          "4": {
+            "comment": "That dead person? My target obviously went there last night...obviously.",
+            "description": "The executioner makes a super obvious play, such as tracking their target to a dead person.",
+            "display-text": "Executioner makes an obvious play"
+          },
+          "5": {
+            "comment": "Gee, I wonder why this guy is immune?",
+            "description": "The Godfather claims executioner as their role when voted up. This is because the executioner is immune and so is the Godfather.",
+            "display-text": "Godfather claims executioner"
+          },
+          "6": {
+            "comment": "Kill it with FIRE!!!",
+            "description": "The arsonist claims executioner as their role when voted up. Much like the Godfather, this is because executioner is immune.",
+            "display-text": "Arsonist claims executioner"
+          },
+          "7": {
+            "comment": "You, my good sir, are the exact opposite of a doctor.",
+            "description": "The arsonist claims doctor, since it's the only town role in their investigator results.",
+            "display-text": "Serial killer claims doctor"
+          },
+          "8": {
+            "comment": "Let's be real, the mafia is getting lynched.",
+            "description": "When the game gets down to the last few players, there will usually be a role call to determine everyone's actual roles and decide who's going to win.",
+            "display-text": "Roll call"
+          },
+          "9": {
+            "comment": "So much for my stealth vamp takeover.",
+            "description": "A town member calls for, or starts, a vote for role. Usually, a confirmed town member, such as a veteran.",
+            "display-text": "Vote for role"
+          },
+          "10": {
+            "comment": "Just because I saw you visit the medium, SK, doesn't make me an exe.",
+            "description": "Someone, usually with incriminating results, gets called an executioner by the evil they are trying to get voted up.",
+            "display-text": "Someone gets called an executioner"
+          },
+          "11": {
+            "comment": "Role? Nice Dusa bait.",
+            "description": "Someone asks for a town protective or a lookout on them. This is a common Medusa bait.",
+            "display-text": "Someone asks for TP/LO"
+          },
+          "12": {
+            "comment": "This is why survs get insta-lynched",
+            "description": "Someone in a role that has defense claims survivor. This is because survivors also have defense on nights that they put on a bulletproof vest.",
+            "display-text": "Immune claims survivor"
+          }
+        },
+        "wins": {
+          "1": {
+            "comment": "Makin' da Godfatha' praad.",
+            "description": "Mafia wins end screen",
+            "display-text": "Mafia wins"
+          },
+          "2": {
+            "comment": "Awoooooooooooooo",
+            "description": "Werewolf wins end screen",
+            "display-text": "Werewolf wins"
+          },
+          "3": {
+            "comment": "Booooooring",
+            "description": "Town wins end screen",
+            "display-text": "Town wins"
+          },
+          "4": {
+            "comment": "Let's be honest, it was a hex bomb. The hex master won.",
+            "description": "Coven wins end screen",
+            "display-text": "Coven wins"
+          },
+          "5": {
+            "comment": "Some people just wanna watch the world burn.",
+            "description": "Arsonist wins end screen",
+            "display-text": "Arsonist wins"
+          },
+          "6": {
+            "comment": "Wait, you mean that doctor claim actually worked?",
+            "description": "Serial killer wins end screen",
+            "display-text": "Serial killer wins"
+          },
+          "7": {
+            "comment": "How the heck did that happen?",
+            "description": "Jester wins end screen",
+            "display-text": "Jester only win"
+          },
+          "8": {
+            "comment": "Ok, somebody really messed up.",
+            "description": "Survivor wins end screen",
+            "display-text": "Survivor only win"
+          },
+          "9": {
+            "comment": "It's not a loss, so it counts as a win here!",
+            "description": "Draw end screen",
+            "display-text": "Draw"
+          },
+          "10": {
+            "comment": "Not gonna lie, I'm actually kind of impressed.",
+            "description": "Juggernaut wins end screen",
+            "display-text": "Juggernaut wins"
+          },
+          "11": {
+            "comment": "You're lying, you didn't see that end screen. Play fair.",
+            "description": "Pirate wins end screen",
+            "display-text": "Pirate only win"
+          },
+          "12": {
+            "comment": "Town threw",
+            "description": "Pestilence wins end screen",
+            "display-text": "Pestilence wins"
+          }
+        }
+      }
+    },
+    "dialogs": {
+      "confirmation": {
+        "confirm": "Yes, I am sure",
+        "message": "Are you sure? This action cannot be undone.",
+        "title": "Confirmation"
+      },
+      "bingo-task": {
+        "category": "Category",
+        "description": "Description",
+        "free-space": "This task is your free space. This was the original task for this space.",
+        "task": "Task",
+        "title": "Task Information"
+      }
+    },
+    "notepad": {
+      "actions": {
+        "reset": "Reset notepad"
+      },
+      "name": "Notepad",
+      "tables": {
+        "graveyard": {
+          "title": "Graveyard"
+        },
+        "headers": {
+          "affected": "Affected?",
+          "claim": "Claim",
+          "confirmed": "Confirmed?",
+          "fake": "Fake?"
+        }
+      }
+    },
+    "players": {
+      "6": {
+        "claim": "witch in CAA lol"
+      }
+    }
+  }
+}
