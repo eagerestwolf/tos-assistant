@@ -19,10 +19,10 @@ export function NotepadTable({ table }: NotepadTableProps): JSX.Element {
     <tr>
       <th />
       <th>#</th>
-      <th>{t("notepad.tables.headers.affected")}</th>
-      <th>{t("notepad.tables.headers.confirmed")}</th>
-      <th>{t("notepad.tables.headers.fake")}</th>
-      <th>{t("notepad.tables.headers.claim")}</th>
+      <th>{t("components.notepad.table.headers.affected")}</th>
+      <th>{t("components.notepad.table.headers.confirmed")}</th>
+      <th>{t("components.notepad.table.headers.fake")}</th>
+      <th>{t("components.notepad.table.headers.claim")}</th>
     </tr>
   );
 

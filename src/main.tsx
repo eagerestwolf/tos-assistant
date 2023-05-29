@@ -1,11 +1,10 @@
-import React, { Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
-import { App } from "./App";
-import { Loading } from "./views/Loading";
-
 import "./i18n/config";
+import { Router } from "./routes";
 
 const root = document.getElementById("root");
 
@@ -15,10 +14,8 @@ if (!root) {
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <Suspense fallback={<Loading />}>
-      <RecoilRoot>
-        <App />
-      </RecoilRoot>
-    </Suspense>
+    <RecoilRoot>
+      <RouterProvider router={Router} />
+    </RecoilRoot>
   </React.StrictMode>
 );

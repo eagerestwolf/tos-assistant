@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
   workflow_dispatch:
 jobs:
   release:
@@ -26,15 +26,15 @@ jobs:
       - name: Rust cache
         uses: swatinem/rust-cache@v2
         with:
-          workspaces: './src-tauri -> target'
+          workspaces: "./src-tauri -> target"
       - uses: pnpm/action-setup@v2
         with:
           version: latest
       - name: Sync node version and setup cache
         uses: actions/setup-node@v3
         with:
-          node-version: 'lts/*'
-          cache: 'pnpm'
+          node-version: "lts/*"
+          cache: "pnpm"
       - name: Install frontend dependencies
         run: pnpm install
       - name: Build the app
@@ -44,7 +44,7 @@ jobs:
           TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
         with:
           tagName: ${{ github.ref_name }}
-          releaseName: 'App Name v__VERSION__'
-          releaseBody: 'See the assets to download and install this version.'
+          releaseName: "App Name v__VERSION__"
+          releaseBody: "See the assets to download and install this version."
           releaseDraft: true
           prerelease: false

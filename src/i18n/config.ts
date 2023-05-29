@@ -20,7 +20,7 @@ i18next
       escapeValue: false
     },
     react: {
-      useSuspense: true
+      useSuspense: false
     },
     resources
   });

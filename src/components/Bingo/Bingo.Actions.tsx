@@ -13,13 +13,8 @@ export function BingoActions(): JSX.Element {
   const setBingoState = useSetRecoilState(bingoStateAtom);
 
   const doNewBingoCard = (): void => {
-    setBingoState((oldTasks: BingoTask[]): BingoTask[] => {
-      let tasks = [...oldTasks];
-
-      tasks = [];
-      tasks = generateBingoTasks();
-
-      return tasks;
+    setBingoState((): BingoTask[] => {
+      return generateBingoTasks();
     });
   };
 

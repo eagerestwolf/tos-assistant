@@ -14,7 +14,7 @@ export function NotepadActions(): JSX.Element {
     <Button.Group>
       <ActionButton
         icon={<IconRefresh />}
-        message={t("notepad.actions.reset")}
+        message={t("components.notepad.actions.reset")}
         onConfirm={() => {
           resetPlayerState();
         }}

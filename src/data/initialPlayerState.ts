@@ -124,7 +124,7 @@ export const initialPlayerState: Player[] = [
     isFake: false
   },
   {
-    claim: t("players.6.claim"),
+    claim: t("players.16.claim"),
     id: 16,
     isAffected: false,
     isAlive: false,

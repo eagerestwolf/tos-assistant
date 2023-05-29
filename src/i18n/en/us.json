@@ -271,6 +271,21 @@
         }
       }
     },
+    "components": {
+      "notepad": {
+        "actions": {
+          "reset": "Reset notepad"
+        },
+        "table": {
+          "headers": {
+            "affected": "Affected?",
+            "claim": "Claim",
+            "confirmed": "Confirmed?",
+            "fake": "Fake?"
+          }
+        }
+      }
+    },
     "dialogs": {
       "confirmation": {
         "confirm": "Yes, I am sure",
@@ -285,25 +300,23 @@
         "title": "Task Information"
       }
     },
-    "notepad": {
-      "actions": {
-        "reset": "Reset notepad"
+    "pages": {
+      "bingo": {
+        "title": "Bingo"
       },
-      "name": "Notepad",
-      "tables": {
-        "graveyard": {
-          "title": "Graveyard"
+      "notepad": {
+        "tables": {
+          "graveyard": "Graveyard",
+          "town": "Town"
         },
-        "headers": {
-          "affected": "Affected?",
-          "claim": "Claim",
-          "confirmed": "Confirmed?",
-          "fake": "Fake?"
-        }
+        "title": "Notepad"
+      },
+      "settings": {
+        "title": "Settings"
       }
     },
     "players": {
-      "6": {
+      "16": {
         "claim": "witch in CAA lol"
       }
     }

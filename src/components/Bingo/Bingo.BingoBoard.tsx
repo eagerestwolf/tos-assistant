@@ -9,7 +9,7 @@ export function BingoBoard(): JSX.Element {
   const bingoState = useRecoilValue(bingoStateAtom);
 
   const generateSpaces = bingoState.map((task, i): JSX.Element => {
-    return <BingoSpace key={task.slot} index={i} />;
+    return <BingoSpace key={`${task.category}-${task.slot}`} index={i} />;
   });
 
   return (
