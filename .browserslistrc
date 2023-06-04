@@ -1,3 +1,7 @@
-es2021
-last 3 chrome versions
-safari113
+[production]
+> 1%
+not dead
+
+[modern]
+last 1 chrome version
+last 1 safari version

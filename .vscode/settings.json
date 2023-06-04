@@ -1,6 +1,6 @@
 {
-  "cSpell.words": ["appimage", "languagedetector", "tabler", "tauri"],
+  "cSpell.words": ["appimage", "languagedetector", "Mantine", "tabler", "tauri"],
   "search.exclude": {
     "**/.pnp.*": true
-  },
+  }
 }

@@ -2,9 +2,9 @@ import type { RouteObject } from "react-router-dom";
 
 import { App } from "../App";
 
-import { BingoPage } from "../pages/Bingo";
-import { NotepadPage } from "../pages/Notepad";
-import { SettingsPage } from "../pages/Settings";
+import { BingoPage } from "../features/bingo/Page";
+import { NotepadPage } from "../features/notepad/Page";
+import { SettingsPage } from "../features/settings/Page";
 
 export const Routes: RouteObject[] = [
   {
